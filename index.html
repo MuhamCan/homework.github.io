@@ -1,212 +1,33 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profesyonel Web Sayfasý</title>
-    <style>
-        /* Genel Stil */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        /* Baþlýk ve Menü */
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-            header h1 {
-                margin: 0;
-                font-size: 2.5em;
-            }
-
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-
-            nav a {
-                color: white;
-                text-decoration: none;
-                padding: 10px 20px;
-                margin: 0 10px;
-                font-weight: bold;
-            }
-
-                nav a:hover {
-                    background-color: #555;
-                    border-radius: 5px;
-                }
-
-        /* Ana Ýçerik */
-        .main-content {
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        .intro {
-            font-size: 1.5em;
-            margin-bottom: 30px;
-            color: #555;
-        }
-
-        .services, .gallery, .contact-form {
-            margin-top: 50px;
-        }
-
-        .service-item, .gallery-item {
-            display: inline-block;
-            width: 30%;
-            padding: 20px;
-            margin: 10px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-            .service-item h3, .gallery-item h3 {
-                margin-top: 10px;
-                color: #333;
-            }
-
-            .service-item p, .gallery-item p {
-                color: #777;
-            }
-
-        .gallery img {
-            width: 100%;
-            border-radius: 5px;
-        }
-
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 15px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 1em;
-        }
-
-        .contact-form button {
-            padding: 15px 30px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-            cursor: pointer;
-        }
-
-            .contact-form button:hover {
-                background-color: #45a049;
-            }
-
-        /* Footer */
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
+    <title>ChatGPT Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- Baþlýk ve Menü -->
     <header>
-        <h1>Profesyonel Web Sayfamýza Hoþgeldiniz</h1>
+        <h1>HoÅŸ Geldiniz!</h1>
+        <p>Bu web sitesi, profesyonel bilgilere ve projelere kolay eriÅŸim saÄŸlamanÄ±zÄ± amaÃ§lÄ±yor.</p>
     </header>
-
-    <nav>
-        <a href="#services">Hizmetler</a>
-        <a href="#gallery">Galeri</a>
-        <a href="#contact">Ýletiþim</a>
-    </nav>
-
-    <!-- Ana Ýçerik -->
-    <div class="main-content">
-        <p class="intro">
-            Web tasarýmý, dijital pazarlama, SEO ve daha fazlasýný sunuyoruz. Hedeflerinizi gerçeðe
-            dönüþtürmek için buradayýz. Ýþinizi büyütmek için gerekli her þey burada.
-        </p>
-
-        <!-- Hizmetler -->
-        <div id="services" class="services">
-            <h2>Hizmetlerimiz</h2>
-            <div class="service-item">
-                <h3>Web Tasarýmý</h3>
-                <p>
-                    Modern ve kullanýcý dostu web tasarýmlarý ile markanýzý dijital dünyada temsil edin. Web sitenizin
-                    her cihazda uyumlu olmasýný saðlýyoruz.
-                </p>
-            </div>
-            <div class="service-item">
-                <h3>Dijital Pazarlama</h3>
-                <p>
-                    SEO, sosyal medya yönetimi, Google Ads ve içerik pazarlama gibi dijital pazarlama stratejileri ile
-                    çevrimiçi görünürlüðünüzü artýrýyoruz.
-                </p>
-            </div>
-            <div class="service-item">
-                <h3>SEO Optimizasyonu</h3>
-                <p>
-                    Web sitenizi arama motorlarý için optimize ediyoruz, böylece hedef kitlenize kolayca ulaþabilirsiniz.
-                    SEO ile web sitenizin organik sýralamasýný iyileþtiriyoruz.
-                </p>
-            </div>
-        </div>
-
-        <!-- Galeri -->
-        <div id="gallery" class="gallery">
-            <h2>Galeri</h2>
-            <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400" alt="Proje 1">
-                <h3>Proje 1: Modern Web Tasarýmý</h3>
-                <p>Responsive ve þýk bir web tasarýmý örneði. Her cihazda mükemmel çalýþacak þekilde optimize edilmiþtir.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400" alt="Proje 2">
-                <h3>Proje 2: Dijital Pazarlama Kampanyasý</h3>
-                <p>
-                    Baþarýya ulaþmýþ bir dijital pazarlama kampanyasý örneði. SEO ve sosyal medya stratejileriyle yüksek
-                    trafik saðlandý.
-                </p>
-            </div>
-            <div class="gallery-item">
-                <img src="https://via.placeholder.com/600x400" alt="Proje 3">
-                <h3>Proje 3: SEO Optimizasyonu</h3>
-                <p>Arama motorlarý için optimize edilmiþ web sitesi. Organik arama sonuçlarýnda üst sýralarda yer alýyor.</p>
-            </div>
-        </div>
-
-        <!-- Ýletiþim Formu -->
-        <div id="contact" class="contact-form">
-            <h2>Bizimle Ýletiþime Geçin</h2>
-            <form action="mailto:email@example.com" method="post" enctype="text/plain">
-                <input type="text" name="name" placeholder="Adýnýz Soyadýnýz" required>
-                <input type="email" name="email" placeholder="E-posta Adresiniz" required>
-                <textarea name="message" rows="5" placeholder="Mesajýnýz" required></textarea>
-                <button type="submit">Gönder</button>
-            </form>
-        </div>
-    </div>
-
-    <!-- Footer -->
+    
+    <main>
+        <section>
+            <h2>HakkÄ±mda</h2>
+            <p>Ben ChatGPT, yapay zeka tabanlÄ± bir asistanÄ±m.</p>
+        </section>
+        <section>
+            <h2>Projelerim</h2>
+            <ul>
+                <li><a href="Hw1-Q2.html">Hw1-Q2</a></li>
+                <li><a href="Hw1-Q3.html">Hw1-Q3</a></li>
+            </ul>
+        </section>
+    </main>
+    
     <footer>
-        <p>© 2025 Profesyonel Web Tasarýmý | Tüm haklarý saklýdýr.</p>
+        <p>Bu site, GitHub Pages ile barÄ±ndÄ±rÄ±lmaktadÄ±r. <a href="https://github.com/">GitHub</a></p>
     </footer>
-
 </body>
-
 </html>
